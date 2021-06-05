@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_nav"
+    app:startDestination="@id/dompetFragment">
+
+    <fragment
+        android:id="@+id/dompetFragment"
+        android:name="com.example.financesmile.dompet.dompetFragment"
+        android:label="fragment_dompet"
+        tools:layout="@layout/fragment_dompet" />
+    <fragment
+        android:id="@+id/addDataFragment"
+        android:name="com.example.financesmile.addData.addDataFragment"
+        android:label="fragment_add_data"
+        tools:layout="@layout/fragment_add_data" />
+    <fragment
+        android:id="@+id/riwayatFragment"
+        android:name="com.example.financesmile.riwayat.RiwayatFragment"
+        android:label="fragment_riwayat"
+        tools:layout="@layout/fragment_riwayat" />
+</navigation>
